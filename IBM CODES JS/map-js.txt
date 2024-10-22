@@ -1,0 +1,16 @@
+var map = L.map('map').setView([28.7041, 77.1025], 13); // Coordinates for the center of the map
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© OpenStreetMap'
+}).addTo(map);
+
+var markers = [
+    [28.7041, 77.1025], // Add coordinates for each marker
+    [28.7046, 77.1030],
+    [28.7050, 77.1040]
+];
+
+markers.forEach(function(coords) {
+    L.marker(coords).addTo(map);
+});

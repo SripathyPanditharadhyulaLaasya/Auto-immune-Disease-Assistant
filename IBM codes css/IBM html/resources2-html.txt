@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoImmune Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>AutoImmune</h2>
+        <p>Hi, Shubhang Nautiyal</p>
+        <nav>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Nearby</a></li>
+                <li><a href="#">Dietary</a></li>
+                <li><a href="#">Exercise</a></li>
+                <li><a href="#">Disease Analysis</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="card">
+            <img src="path-to-image.jpg" alt="Polymyositis">
+            <h2>Polymyositis</h2>
+            <p><strong>Description:</strong> Polymyositis is a rare autoimmune disease characterized by inflammation and weakness of the muscles, particularly those around the shoulders, hips, and thighs. It can affect both sides of the body and may lead to difficulty with activities that require muscle strength, such as climbing stairs or lifting objects. The condition may also be associated with other autoimmune diseases or underlying malignancies.</p>
+            <p><strong>Symptoms:</strong> Symptoms include progressive muscle weakness, particularly in the proximal muscles such as those in the shoulders, hips, and thighs. Individuals may experience difficulty in performing everyday activities, muscle pain, and fatigue. In some cases, symptoms may also include joint pain and swelling.</p>
+            <p><strong>How to Cure:</strong> Treatment for polymyositis focuses on reducing inflammation and improving muscle strength. This often involves the use of corticosteroids, such as prednisone, and immunosuppressive medications to manage the autoimmune response. Physical therapy and exercise are also important to maintain muscle function and prevent further weakness. Regular monitoring and adjustments to treatment are necessary to address disease activity and prevent complications.</p>
+        </div>
+    </div>
+</body>
+</html>

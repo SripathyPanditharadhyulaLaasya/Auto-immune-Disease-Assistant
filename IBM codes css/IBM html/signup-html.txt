@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - AutoImmune</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="logo.png" alt="AutoImmune Logo" class="logo">
+            <div class="images">
+                <img src="image1.jpg" alt="Image 1" class="image-circle">
+                <img src="image2.jpg" alt="Image 2" class="image-circle">
+                <img src="image3.jpg" alt="Image 3" class="image-circle">
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="signup-form">
+                <h2>SIGN UP</h2>
+                <form action="#" method="POST">
+                    <label for="username">UserName</label>
+                    <input type="text" id="username" name="username" placeholder="username">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <button type="submit">Sign In</button>
+                </form>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+                <p>Already have an account? <a href="#">Sign In</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

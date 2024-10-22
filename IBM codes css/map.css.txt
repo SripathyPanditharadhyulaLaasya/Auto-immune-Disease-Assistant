@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.sidebar a.logout {
+    color: #d9534f;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background: linear-gradient(135deg, #c3ec52, #0ba29d);
+    color: #fff;
+}
+
+.map-container {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: calc(100vh - 80px); /* Adjust height as needed */
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}

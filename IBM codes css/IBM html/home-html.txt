@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <img src="logo.png" alt="AutoImmune Logo">
+        <p>Hi, Shubhang Nautiyal</p>
+        <a href="#">
+            <img src="dashboard-icon.png" alt="Dashboard Icon">Dashboard
+        </a>
+        <a href="#">
+            <img src="home-icon.png" alt="Home Icon">Home
+        </a>
+        <a href="#">
+            <img src="games-icon.png" alt="Games Icon">Games
+        </a>
+        <a href="#">
+            <img src="resources-icon.png" alt="Resources Icon">Resources
+        </a>
+        <a href="#">
+            <img src="nearby-icon.png" alt="Nearby Icon">Nearby
+        </a>
+        <a href="#">
+            <img src="dietary-icon.png" alt="Dietary Icon">Dietary

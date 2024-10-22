@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoImmune Dashboard</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>AutoImmune</h2>
+        <p>Hi, Shubhang Nautiyal</p>
+        <a href="#">Dashboard</a>
+        <a href="#">Home</a>
+        <a href="#">Games</a>
+        <a href="#">Resources</a>
+        <a href="#">Nearby</a>
+        <a href="#">Dietary</a>
+        <a href="#">Exercise</a>
+        <a href="#">Disease Analysis</a>
+        <a href="#" class="logout">Logout</a>
+    </div>
+    <div class="main-content">
+        <h1>Nearby Hospitals & Chemists</h1>
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    height: 100vh;
+}
+
+.sidebar a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.sidebar a.logout {
+    color: #d9534f;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card h2, .card p {
+    margin: 10px 0;
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+}
+
+.grid .card {
+    flex: 1;
+}
+
+.reminders ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reminders li {
+    margin: 10px 0;
+}

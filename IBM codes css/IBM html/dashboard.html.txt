@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoImmune Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>AutoImmune</h2>
+        <p>Hi, Shubhang Nautiyal</p>
+        <a href="#">Dashboard</a>
+        <a href="#">Home</a>
+        <a href="#">Games</a>
+        <a href="#">Resources</a>
+        <a href="#">Nearby</a>
+        <a href="#">Dietary</a>
+        <a href="#">Exercise</a>
+        <a href="#">Disease Analysis</a>
+        <a href="#" class="logout">Logout</a>
+    </div>
+    <div class="main-content">
+        <div class="card">
+            <div class="grid">
+                <div>
+                    <img src="profile.jpg" alt="Profile Picture">
+                    <h2>Shubhang Nautiyal</h2>
+                    <p>Age: 21</p>
+                    <p>Blood Group: A+</p>
+                    <p>Weight: 75 kg</p>
+                    <p>Height: 5'11"</p>
+                </div>
+                <div>
+                    <h3>Today's Event</h3>
+                    <p>August 2, 2024</p>
+                    <div class="reminders">
+                        <h4>Immunity Reminders</h4>
+                        <ul>
+                            <li>Get Vaccinated</li>
+                            <li>Immunity Test</li>
+                            <li>Healthy Eating</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <h3>General Health</h3>
+                <p>87%</p>
+            </div>
+            <div class="card">
+                <h3>Water Balance</h3>
+                <p>75%</p>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Activity</h3>
+            <p>Activity graph will be here</p>
+        </div>
+    </div>
+</body>
+</html>

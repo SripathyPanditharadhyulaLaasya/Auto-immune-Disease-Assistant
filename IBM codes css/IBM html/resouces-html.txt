@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoImmune Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>AutoImmune</h2>
+        <p>Hi, Shubhang Nautiyal</p>
+        <a href="#">Dashboard</a>
+        <a href="#">Home</a>
+        <a href="#">Games</a>
+        <a href="#">Resources</a>
+        <a href="#">Nearby</a>
+        <a href="#">Dietary</a>
+        <a href="#">Exercise</a>
+        <a href="#">Disease Analysis</a>
+        <a href="#" class="logout">Logout</a>
+    </div>
+    <div class="main-content">
+        <h1>Educational Resources on Autoimmune Diseases</h1>
+        <p>Comprehensive information about various autoimmune diseases to promote awareness and empower users with knowledge.</p>
+        <div class="resources">
+            <div class="card">
+                <img src="rheumatoid_arthritis.jpg" alt="Rheumatoid Arthritis">
+                <h3>Rheumatoid Arthritis</h3>
+                <p>A chronic inflammatory disorder affecting the joints, particularly the hands and feet.</p>
+            </div>
+            <div class="card">
+                <img src="lupus.jpg" alt="Lupus">
+                <h3>Lupus</h3>
+                <p>A systemic autoimmune disease that occurs when the body's immune system attacks its own tissues.</p>
+            </div>
+            <div class="card">
+                <img src="multiple_sclerosis.jpg" alt="Multiple Sclerosis">
+                <h3>Multiple Sclerosis</h3>
+                <p>A disease where the immune system attacks the protective sheath (myelin) that covers nerve fibers, causing inflammation and damage.</p>
+            </div>
+            <div class="card">
+                <img src="type_1_diabetes.jpg" alt="Type 1 Diabetes">
+                <h3>Type 1 Diabetes</h3>
+                <p>A chronic condition in which the pancreas produces little or no insulin due to an autoimmune attack on insulin-producing cells.</p>
+            </div>
+            <div class="card">
+                <img src="psoriasis.jpg" alt="Psoriasis">
+                <h3>Psoriasis</h3>
+                <p>A skin condition that causes red, itchy, scaly patches, often on the scalp, elbows, or knees.</p>
+            </div>
+            <div class="card">
+                <img src="hashimoto_thyroiditis.jpg" alt="Hashimoto's Thyroiditis">
+                <h3>Hashimoto's Thyroiditis</h3>
+                <p>An autoimmune disorder where the immune system attacks the thyroid gland, leading to hypothyroidism.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
